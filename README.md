@@ -34,7 +34,108 @@ This repository hosts the official website of **AGCOL Construction**, showcasing
 - Structural and fabrication works  
 - Pergola, pavilion, and architectural designs  
 
----
+---* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* HEADER */
+.hero {
+  background: linear-gradient(135deg, #0b2c4d, #123c63);
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 15px;
+}
+
+.hero h1 {
+  margin: 10px 0;
+  font-size: 2.2rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 22px;
+  margin: 8px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn.primary {
+  background: #ff7a00;
+  color: #fff;
+}
+
+.btn.whatsapp {
+  background: #25d366;
+  color: #fff;
+}
+
+/* SECTIONS */
+section {
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+section.light {
+  background: #ffffff;
+}
+
+h2 {
+  text-align: center;
+  color: #0b2c4d;
+  margin-bottom: 20px;
+}
+
+/* SERVICES */
+.services {
+  max-width: 700px;
+  margin: auto;
+  list-style: square;
+}
+
+/* GALLERY */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* FOOTER */
+footer {
+  background: #0b2c4d;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
 
 ## 📞 Contact Information
 
